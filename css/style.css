@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+.hw5-2 {
+	font-family: 'Roboto', 'Arial';
+	font-size: 20px;
+	color: rgb(15, 14, 15);
+}
+
+.wrapper.homework5-2 {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.section {
+	padding-bottom: 50px;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-bottom: 50px;
+}
+
+.header__top {
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 25px;
+}
+
+.header__img {
+	max-width: 200px;
+}
+
+.title.hw5-2 {
+	display: inline-block;
+	font-size: 48px;
+	margin: 20px 150px 0;
+	font-family: 'Shizuru', serif ;	
+}
+
+.menu__list {
+	text-align: center;
+}
+
+.menu__item {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.menu__link {
+	font-size: 24px;
+}
+
+.code {
+	display: inline-block;
+	border: 2px solid red;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.subtitle {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.text {
+	margin-bottom: 20px;
+}
+
+.text__decor, .padding__decor {
+	font-family: 'Supermercado One', sans-serif;
+	padding: 0 5px;
+	text-decoration: underline;
+	color: darkblue;
+}
+
+.code__text {
+	text-align: left;
+	border: 2px solid rgb(35, 21, 238);
+}
+
+.code__text--all {
+	margin: 10px;
+}
+
+.code__text--ud {
+	margin: 25px 15px;
+}
+
+.code__text--udr{
+	margin: 10px 5px 35px;
+}
+
+.code__text--urdl {
+	margin: 25px 5px 10px 15px;
+}
+
+.code {
+	font-family: monospace;
+	margin-bottom: 15px;
+}
+
+.code__green {
+	color: #50a14f;
+}
+
+.code__red {
+	color: #e45649;
+	padding-left: 20px;
+}
+
+.padding__block {
+	border: 2px solid rgb(233, 200, 14);
+}
+
+.padding__text {
+	padding: 10px 15px 20px 25px;
+}
+
+.padding__img-box {
+	height: 0;
+	background-image: url('../img/jake-dog.png');
+	background-size: contain;
+	background-repeat: round;
+	padding-bottom: 15%;
+}
+
+.subtitle.size {
+	font-family: 'Comfortaa';
+	text-align: left;
+	margin-left: 150px;
+}
+
+.subtitle__decor {
+	font-family: 'Bebas Neue';
+	font-size: 50px;
+}
+
+.size__width {
+	width: 250px;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.size__width-max {
+	max-width: 250px;
+	display: inline-block;
+	text-align: right;
+}
+
+.size__width-min {
+	min-width: 250px;
+}
+
+.size__text-decor {
+	font-weight: 700;
+	font-style: oblique;
+}
+
+[class*="__width"] {
+	margin-bottom: 25px;
+	border: 2px solid rgb(32, 107, 63);
+}
+
+[class*="__height"] {
+	margin-bottom: 55px;
+	border: 2px solid rgb(32, 62, 107);
+	text-align: justify;
+}
+
+.size__height {
+	height: 50px;
+}
+
+.size__height-max {
+	max-height: 50px;
+}
+
+.size__height-min {
+	min-height: 50px;
+}
+
+.overflow__text-decor {
+	font-weight: 700;
+	font-style: oblique;
+}
+
+.overflow-hiden {
+	max-height: 55px;
+	border: 2px solid red;
+	overflow: hidden;
+}
+
+.overflow-scroll, .overflow-king-box {
+	display: inline-block;
+	max-width: 582px;
+	width: 100%;
+	max-height: 200px;
+	border: 2px solid red;
+	overflow:auto;
+}
+
+[class*="overflow-"] {
+	margin-bottom: 25px;
+	border: 2px solid rgb(184, 32, 82);
+}
+
+
+/* !! 2-Я ЧАСТЬ ДЗ */
+
+.home-work2 {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+}
+
+.content {
+	width: 810px;
+	text-align: left;
+	margin: 30px auto;
+}
+
+.title-hw2 {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 50px;
+}
+
+.content__image {
+	margin-bottom: 60px;
+}
+
+.text-bold {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1E212C;
+}
+
+.text-m48 {
+	margin-bottom: 48px;
+}
+
+.text-m24 {
+	margin-bottom: 24px;
+}
+
+.text__margin {
+	display: block;
+	margin-left: 58px;
+}
+
+.content__list {
+	margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

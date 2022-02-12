@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Отступы и область контента</title>
+</head>
+
+<body>
+
+	<!-- !! 1-Я ЧАСТЬ ДЗ -->
+
+	<div class="wrapper hw5-2">
+		<header class="header">
+			<div class="container">
+
+				<div class="header__top">
+					<img class="header__img" src="img/header-left.webp" alt="">
+					<h1 class="title hw5-2">Margin<br>&<br>Padding</h1>
+					<img class="header__img" src="img/header-right.webp" alt="">
+				</div>
+
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								1
+							</a>
+						</li>
+
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								2
+							</a>
+						</li>
+
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								3
+							</a>
+						</li>
+
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								4
+							</a>
+						</li>
+
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								5
+							</a>
+						</li>
+
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								6
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="margin section">
+				<div class="container">
+					<h2 class="subtitle">
+						Кратко про Margin
+					</h2>
+
+					<p class="text">
+						Чтобы сделать отступ только с одной стороны, используй <span
+							class="text__decor">margin-top</span> (сверху),
+						<span class="text__decor">margin-right</span> (справа), <span
+							class="text__decor">margin-bottom</span> (снизу) или <span
+							class="text__decor">margin-left</span> (слева).
+					</p>
+
+					<h2 class="subtitle">
+						Примеры
+					</h2>
+
+					<p class="text">
+						Применяется ко всем четырём сторонам:
+					</p>
+
+					<div class="code">
+						<p class="code__text code__text--all">
+							<span class="code__green">.p</span> {<br>
+							<span class="code__red">margin</span>: 10px;<br>
+							}
+						</p>
+					</div>
+
+					<p class="text">
+						Сверху и снизу | слева и справа:
+					</p>
+
+					<div class="code">
+						<p class="code__text code__text--ud">
+							<span class="code__green">.p</span> {<br>
+							<span class="code__red">margin</span>: 25px 15px;<br>
+							}
+						</p>
+					</div>
+
+					<p class="text">
+						Сверху | слева и справа | снизу:
+					</p>
+
+					<div class="code">
+						<p class="code__text code__text--udr">
+							<span class="code__green">.p</span> {<br>
+							<span class="code__red">margin</span>: 10px 5px 35px;<br>
+							}
+						</p>
+					</div>
+
+					<p class="text">
+						Сверху | справа | снизу | слева:
+					</p>
+
+					<div class="code">
+						<p class="code__text code__text--urdl">
+							<span class="code__green">.p</span> {<br>
+							<span class="code__red">margin</span>: 25px 5px 10px 15px;<br>
+							}
+						</p>
+					</div>
+			</section>
+
+			<section class="padding section">
+				<div class="container">
+					<h2 class="subtitle">
+						Кратко про Padding
+					</h2>
+
+					<div class="padding__block">
+						<p class="padding__text">
+							Свойство <span class="padding__decor">padding</span> — или внутренний отступ —
+							позволяет оттолкнуть контент от границ родительского элемента. По записи схож с
+							<span class="padding__decor">margin</span>
+						</p>
+					</div>
+
+					<p class="text">
+						Кроме отступов, с помощью <span class="text__decor">padding</span> можно сделать
+						отзывчивое изображение.
+					</p>
+					<div class="padding__img-box"></div>
+			</section>
+
+			<section class="size section">
+				<div class="container">
+					<h2 class="subtitle size">
+						width & <span class="subtitle__decor">height</span>
+					</h2>
+
+					<div class="size__width">
+						<p class="size__text">
+							<span class="size__text-decor">строго заданная ширина 250px</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia?
+						</p>
+					</div>
+
+					<div class="size__width-max">
+						<p class="size__text">
+							<span class="size__text-decor">максимальная ширина 250px</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia?
+						</p>
+					</div>
+
+					<div class="size__width-min">
+						<p class="size__text">
+							<span class="size__text-decor">минимальная ширина 250px</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia?
+						</p>
+					</div>
+
+					<div class="size__height">
+						<p class="size__text">
+							<span class="size__text-decor">строго заданная высота 50px</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti
+							sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia?
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate
+						</p>
+					</div>
+
+					<div class="size__height-max">
+						<p class="size__text">
+							<span class="size__text-decor">максимальная высота 50px</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti
+							sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia? Lorem
+							ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate
+						</p>
+					</div>
+
+					<div class="size__height-min">
+						<p class="size__text">
+							<span class="size__text-decor">минимальная высота 50px</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti
+							sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia? Lorem
+							ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="overflow section">
+				<div class="container">
+					<h2 class="subtitle overflow">
+						overflow
+					</h2>
+
+					<div class="overflow-hiden">
+						<p class="overflow__text">
+							<span class="overflow__text-decor">Текст выходит за блок и
+								обрезается</span><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate ab nihil, fugit nobis perspiciatis aliquid corrupti
+							sed
+							illum quisquam, consectetur laudantium qui. Repellendus, officia? Lorem
+							ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem odit
+							ullam,
+							iure dolores cupiditate
+						</p>
+					</div>
+
+					<div class="overflow-scroll">
+						<p class="overflow__text">
+							<span class="overflow__text-decor">Текст скролится overflow:auto</span><br>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel minus autem
+							aperiam, quod aspernatur rem. Fugit odit et quas tempora voluptatum doloremque
+							illum repellat nobis maxime, enim dolorum sit veniam.
+							Atque molestias voluptatum repudiandae voluptates. Repellendus adipisci
+							perferendis maxime in maiores ipsam sequi rerum sunt officia laboriosam
+							exercitationem nulla vero, voluptatum excepturi a molestias nemo impedit
+							doloremque iste soluta? Doloremque.
+							Adipisci quaerat mollitia omnis veniam, culpa dolor quam eveniet porro unde.
+							Porro accusantium libero ea natus perspiciatis delectus eaque molestiae,
+							voluptatum quam accusamus consectetur minus quisquam expedita similique autem
+							necessitatibus!
+							Consectetur nam excepturi, commodi eaque deserunt necessitatibus fugiat quasi
+							ducimus, sapiente atque placeat eius fuga facere esse illum unde illo animi
+							quia nostrum, provident veniam facilis corrupti. Quam, eos nobis!
+							Sequi magni id laudantium quaerat neque adipisci cumque impedit eius, modi quo
+							beatae accusantium, aliquam officiis sint veritatis sapiente! Possimus
+							dignissimos est quaerat deleniti neque natus quidem rem porro quod?
+						</p>
+						<img src="img/ice-king.gif" alt="Ледяной король трясет жопкой">
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+		</main>
+	</div>
+
+	<!-- !! 2-Я ЧАСТЬ ДЗ -->
+	<section class="home-work2">
+		<div class="content">
+
+			<h1 class="title-hw2">
+				HR statistics: job search, interviews, hiring and recruiting
+			</h1>
+
+			<img class="content__image" src="img/image.jpg"
+				alt="Decorative image. Keyboard and glasses">
+
+			<p class="text-hw2 text-bold text-m48">
+				Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui
+				odio.
+				Interdum aenean sit malesuada ornare sed gravida rhoncus, congue. Purus auctor
+				nullam
+				diam quis est hendrerit ac euismod.
+			</p>
+
+			<p class="text-hw2 text-m48">
+				At facilisi sapien posuere eget nunc senectus proin nullam. Tortor senectus in et
+				sagittis, vitae diam cras dignissim. Varius adipiscing eget diam nisi. Orci,
+				consectetur
+				vulputate metus ornare pharetra, neque, fermentum. Vel nec rhoncus, non nunc,
+				neque in
+				massa. Feugiat leo nam nisl lacinia amet, odio. Mi varius viverra risus vel.
+				Amet, morbi sed pharetra, elit eget mi potenti. Condimentum orci interdum feugiat
+				lectus
+				libero duis. Nisl massa, elementum varius sit. Nunc felis, porttitor aliquam urna,
+				accumsan et sed. Aliquet non sed duis diam vehicula rhoncus. In dictum nullam
+				tincidunt
+				semper pellentesque purus morbi sed. Ut aliquet velit pharetra, nisi nunc, non.
+			</p>
+
+			<p class="text-hw2 text-bold text-m48">
+				<span class="text__margin">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus
+					quam viverra
+					mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+					turpis tempus
+					ornare turpis quis non. Congue tortor in tot euismod vulputate etiam eros. Vel
+					accumsan
+					at elit neque, ipsum.
+				</span>
+			</p>
+
+			<p class="text-hw2 text-m24">
+				Mauris amet arcu nisl vel dictum tellus. Sed rhoncus, ut sed id ut erat mattis.
+				Vitae
+				mus blandit in neque amet non fringilla blandit:
+			</p>
+
+			<ul class="content__list text-m24">
+				<li class="content__item">
+					<p class="text-hw2">
+						A fermentum in morbi pretium aliquam adipiscing donec tempus.
+					</p>
+				</li>
+
+				<li class="content__item">
+					<p class="text-hw2">
+						Vulputate placerat amet pulvinar lorem nisl.
+					</p>
+				</li>
+
+				<li class="content__item">
+					<p class="text-hw2">
+						Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+					</p>
+				</li>
+
+				<li class="content__item">
+					<p class="text-hw2">
+						Etiam duis lobortis in fames ultrices commodo nibh.
+					</p>
+				</li>
+			</ul>
+
+			<p class="text-hw2">
+				Enim, vel massa odio diam. Blandit massa gravida feugiat elementum id nec sed leo.
+				Nisi in
+				ornare lectus eget. Urna, risus, consectetur volutpat lorem purus. Velit aliquet
+				nibh vitae
+				maecenas. Consectetur neque ut aliquam eros, purus enim dignissim aenean vitae.
+				Ultrices
+				fames augue mattis tortor est justo, pharetra nibh risus. Facilisi at porttitor
+				volutpat
+				natoque proin amet, nulla. Vivamus ut lobortis sagittis curabitur tellus convallis
+				eget
+				netus vitae.
+			</p>
+		</div>
+	</section>
+</body>
+
+</html>
